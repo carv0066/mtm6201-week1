@@ -1,0 +1,48 @@
+html{
+    background-color: #143669;
+    font-size: 20px;
+}
+
+/* Choosing a font for the document */
+.wrapper{
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 300px;
+}
+
+/* modifying font-size and line height */
+
+h1,p,dl{
+    color: white;
+    line-height: 1.5em;
+}
+
+h1{
+    background-color: #2561be;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* Adding float to image */
+img{
+    height: 160px;
+    max-width: 100%;
+    float: left;
+    margin-right:10px;
+}
+
+/* Styling table box, text and color */
+dl{
+    margin-top: 40px;
+    background-color: #2561be;
+    padding: 18px;
+}
+
+dt{
+    font-weight: 800;
+    font-size: 1.15em;
+}
+
+dd{
+    margin: 0;
+}
